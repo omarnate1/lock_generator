@@ -9,6 +9,8 @@ import {
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { COPY_Fail, COPY_SUCCESS } from "./message";
+import Header from './Header';
+import Footer from './Footer';
 
 const App = () => {
   const [password, setPassword] = useState("");
@@ -89,6 +91,7 @@ const App = () => {
 
   return (
     <div className="App">
+      <Header />
       <div className="container">
         <div className="generator">
           <h2 className="generator__header">Password Generator</h2>
@@ -167,6 +170,7 @@ const App = () => {
           />
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
