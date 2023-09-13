@@ -19,7 +19,7 @@
   font-size: 30px;
 }
 .generator__password {
-  background-color: #308d46;
+  background-color: #d50b12;
   padding: 13px 10px;
   color: #fff;
   margin-bottom: 15px;
@@ -49,6 +49,6 @@
 .form-group {
   display: flex;
   justify-content: space-between;
-  color: gre;
-  margin-bottom: 15px;
+  color: whitesmoke;
+  margin-bottom: 25px;
 }
