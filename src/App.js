@@ -9,8 +9,8 @@ import {
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { COPY_Fail, COPY_SUCCESS } from "./message";
-import Header from './Header';
-import Footer from './Footer';
+import Header from "./Header";
+import Footer from "./Footer";
 
 const App = () => {
   const [password, setPassword] = useState("");
