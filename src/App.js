@@ -7,7 +7,7 @@ import Navbar from "./Navigation/Navbar"; // Import the Navbar component correct
 const App = () => {
   return (
     <div>
-      <Navbar /> {/* Use the correct component name here */}
+      <Navbar />
       <Passwordgenerator />
       <Footer />
     </div>

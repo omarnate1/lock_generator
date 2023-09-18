@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import App from "./App"; // Import the 'App' component
-import Navbar from "./Navigation/Navbar";
+//import Navbar from "./Navigation/Navbar";
 import Contact from "./Pages/Contact";
 import About from "./Pages/About";
 
@@ -19,12 +19,12 @@ const router = createBrowserRouter([
     element: <App />,
   },
   {
-    path: "/About", // Corrected the path to start with a forward slash
+    path: "About", // Corrected the path to start with a forward slash
     element: <About />,
   },
 
   {
-    path: "/Contact", // Corrected the path to start with a forward slash
+    path: "Contact", // Corrected the path to start with a forward slash
     element: <Contact />,
   },
 ]);
