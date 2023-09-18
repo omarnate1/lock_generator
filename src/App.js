@@ -1,16 +1,14 @@
 import React from "react";
 import "./App.css";
-import Header from "./Header";
 import Footer from "./Footer";
 import Passwordgenerator from "./Passwordgenerator";
+import Navbar from "./Navigation/Navbar"; // Import the Navbar component correctly
 
 const App = () => {
   return (
     <div>
-      <Header />
-
+      <Navbar /> {/* Use the correct component name here */}
       <Passwordgenerator />
-
       <Footer />
     </div>
   );
