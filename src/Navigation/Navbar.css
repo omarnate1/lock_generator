@@ -2,43 +2,46 @@
 
 /* Navbar container styles */
 .navbar {
-    background-color: black; /* Background color for the navbar */
-    color: white; /* Text color */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-  }
-  
-  /* Navbar logo styles */
-  .navbar-logo {
-    font-size: 30px; /* Adjust the logo font size */
-    font-weight: bold;
-  }
-  
-  /* Navbar menu styles */
-  .navbar-menu {
-    list-style: none;
-    display: flex;
-    gap: 20px; /* Adjust the gap between menu items */
-  }
-  
-  /* Navbar menu item styles */
-  .navbar-item {
-    /* You can add specific styles for each menu item here */
-  }
-  
-  /* Navbar menu link styles */
-  .navbar-menu a {
-    text-decoration: none;
-    color: white; /* Text color for menu items */
-    transition: color 0.3s ease; /* Transition effect for color change on hover */
-  
-    /* Add more styles as needed */
-  }
-  
-  /* Navbar menu link hover styles */
-  .navbar-menu a:hover {
-    color: #ff5733; /* Color on hover */
-  }
-  
+  background-color: black; /* Background color for the navbar */
+  color: white; /* Text color */
+  display: flex;
+  margin-bottom: 50%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  position: fixed; /* Fixed position */
+  top: 0; /* Fixed at the top */
+  width: 100%; /* Full width */
+  z-index: 1000; /* Set a higher z-index to ensure it's above other content */
+}
+
+img {
+  max-width: 70px;
+}
+
+/* Navbar menu styles */
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  gap: 20px; /* Adjust the gap between menu items */
+  margin-right: 20px; /* Add some margin on the right side */
+}
+
+/* Navbar menu item styles */
+.navbar-item {
+  /* You can add specific styles for each menu item here */
+}
+
+/* Navbar menu link styles */
+.navbar-menu a {
+  text-decoration: none;
+  color: white; /* Text color for menu items */
+  transition: color 0.3s ease; /* Transition effect for color change on hover */
+
+  /* Add more styles as needed */
+}
+
+/* Navbar menu link hover styles */
+.navbar-menu a:hover {
+  color: #ff5733; /* Color on hover */
+}
