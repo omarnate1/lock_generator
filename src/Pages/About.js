@@ -1,6 +1,7 @@
 import React from "react";
 //import "./About.css"; // Import the CSS file for styling
 import Navbar from "../Navigation/Navbar";
+import Footer from "../Footer";
 
 const About = () => {
   return (
@@ -16,7 +17,7 @@ const About = () => {
         Fusce auctor eros vel sapien pharetra, quis ullamcorper massa tempor.
         Integer nec facilisis nisl, vel euismod lectus.
       </p>
-    </div>
+    </div> <Footer></Footer>
     </div>
   );
 };
