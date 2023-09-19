@@ -91,7 +91,7 @@ const Passwordgenerator = () => {
     <div className="App">
       <div className="container">
         <div className="generator">
-          <h2 className="generator__header">Password Generator</h2>
+          <h2 className="generator__header">Generated Password</h2>
           <div className="generator__password">
             <h2>{password}</h2>
             <button className="copy__btn">
@@ -105,9 +105,9 @@ const Passwordgenerator = () => {
               defaultValue={passwordLength}
               onChange={(e) => setPasswordLength(e.target.value)}
               type="number"
-              id="password-stregth"
+              id="password-strength"
               name="password-strength"
-              max="30"
+              max="20"
               min="5"
             />
           </div>
