@@ -1,35 +1,44 @@
 /* Contact.css */
-
 /* Style the container */
 .contact-container {
-  max-width: 800px;
-  margin: 0 auto;
+  background-color: aliceblue;
+  max-width: auto;
   padding: 20px;
-  min-height: calc(
-    100vh - 120px
-  ); /* Ensure content fills the viewport height */
+  margin-top: 120px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #429cfc;
 }
 
 /* Style headings */
+/* Style the heading h1 */
 h1 {
   font-size: 28px;
   margin-bottom: 10px;
+  color: #fff;
+  text-align: center; /* Use "text-align" to center horizontally */
+  display: flex; /* Enable flexbox layout */
+  justify-content: center; /* Center horizontally within the container */
+  align-items: center; /* Center vertically within the container */
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 15px;
   margin-top: 20px;
   margin-bottom: 10px;
+  color: #fff;
 }
 
 /* Style paragraphs */
-p {
+.para-one,
+.para-two {
   font-size: 16px;
   line-height: 1.5;
   margin-bottom: 20px;
+  color: #fff;
 }
 
 /* Style strong elements */
@@ -44,7 +53,7 @@ em {
 
 /* Style links */
 a {
-  color: #007bff;
+  color: #6caff7;
   text-decoration: none;
 }
 
@@ -53,7 +62,7 @@ a:hover {
 }
 
 /* Style the footer */
-.footer {
+/*.footer {
   background-color: #333;
   color: #fff;
   padding: 10px 0;
@@ -61,4 +70,4 @@ a:hover {
   position: absolute;
   bottom: 0;
   width: 100%;
-}
+} */
