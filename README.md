@@ -1,6 +1,6 @@
 ## React Password Generator
 
-You can check out the application here
+You can check out the application here https://lock-generator.vercel.app/
 
 How to get it started locally on your machine
 
