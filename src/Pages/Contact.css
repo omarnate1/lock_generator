@@ -1,16 +1,16 @@
 /* Contact.css */
 /* Style the container */
 .contact-container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 10em;
-  min-height: calc(
-    100vh - 120px
-  ); /* Ensure content fills the viewport height */
+  background-color: aliceblue;
+  max-width: auto;
+  padding: 20px;
+  margin-top: 120px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  background-color: #007bff;; 
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #429cfc;
 }
 
 /* Style headings */
@@ -33,11 +33,12 @@ h2 {
 }
 
 /* Style paragraphs */
-.para-one, .para-two {
+.para-one,
+.para-two {
   font-size: 16px;
   line-height: 1.5;
   margin-bottom: 20px;
-  color: #fff
+  color: #fff;
 }
 
 /* Style strong elements */
@@ -52,7 +53,7 @@ em {
 
 /* Style links */
 a {
-  color: #007bff;
+  color: #6caff7;
   text-decoration: none;
 }
 
