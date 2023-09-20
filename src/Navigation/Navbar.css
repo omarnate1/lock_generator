@@ -29,7 +29,8 @@ img {
 
 /* Navbar menu item styles */
 .navbar-item {
-  /* You can add specific styles for each menu item here */
+  
+  font-size: 1.2em;/* You can add specific styles for each menu item here */
 }
 
 /* Navbar menu link styles */

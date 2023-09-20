@@ -8,7 +8,7 @@ const About = () => {
     <div>
       <Navbar></Navbar>
       <div className="about-container">
-        <h1>About Lock Password Generator App</h1>
+        <h1 className="about-one">About Lock Password Generator App</h1>
         <p>
           Welcome to our Password Generating App – your go-to solution for
           creating strong and secure passwords effortlessly. In today's digital
@@ -16,7 +16,7 @@ const About = () => {
           more critical than ever. Our app is designed to simplify this process
           and provide you with peace of mind.
         </p>
-        <h2>What We Do</h2>
+        <h2 className="about-two">What We Do</h2>
         <p>
           At our core, we are committed to enhancing your online security. We
           recognize that creating strong, unique passwords for every account can
@@ -26,7 +26,7 @@ const About = () => {
           impossible to decipher. We take the stress out of password creation
           and ensure that your online presence remains secure.
         </p>
-        <h2>Key Features</h2>
+        <h2 className="about-two">Key Features</h2>
         <p>
           <strong>Strong Passwords:</strong> Our app generates passwords that
           adhere to industry standards for strength and complexity. No more
@@ -46,7 +46,7 @@ const About = () => {
           across multiple devices, ensuring that you always have your crucial
           information at your fingertips.
         </p>
-        <h2>Why Choose Our App</h2>
+        <h2 className="about-two">Why Choose Our App</h2>
         <p>
           Security: Your online security is our top priority. We employ advanced
           encryption techniques to protect your data, and we never store your
@@ -57,7 +57,7 @@ const About = () => {
           trust that your accounts are safeguarded against unauthorized access,
           data breaches, and identity theft.
         </p>
-        <h2>Get Started Today</h2>
+        <h2 className="about-two">Get Started Today</h2>
         <p>
           Enhance your online security and simplify your digital life with our
           Password Generating App. Say goodbye to weak passwords and hello to
@@ -71,7 +71,7 @@ const About = () => {
             </em>
           </strong>
         </p>
-      </div>{" "}
+      </div>
       <Footer></Footer>
     </div>
   );
